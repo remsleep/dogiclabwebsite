@@ -28,7 +28,7 @@ body {
 .subtitle {
 	font-size: 150%;
 	font-style: italic;
-	line-height: 45px;
+	margin-bottom: 30px;
 }
 
 .announce_title {
@@ -166,6 +166,10 @@ body {
 	line-height: 40px;
 }
 
+.top_text {
+	margin-top: 0;
+}
+
 img {
 	max-width: 100%;
 	text-align: center;
@@ -180,6 +184,5 @@ a {
 
 
 p {
-	margin-top: 0;
 	text-align: justify;
 }
