@@ -1,0 +1,185 @@
+body {
+	margin: 0;
+	line-height: 150%;
+}
+
+.page {
+	display: flex;
+	height: 100%;
+}
+
+.title {
+	font-size: 200%;
+	color: #d23a0e;
+	line-height: 100px;
+}
+
+.row.ycenter {
+	align-items: center;
+}
+
+.mega_title {
+	font-size: 400%;
+	color: rgba(127,17,70,1);
+	line-height: 220px;
+
+}
+
+.subtitle {
+	font-size: 150%;
+	font-style: italic;
+	line-height: 45px;
+}
+
+.announce_title {
+	font-size: 160%;
+	color: rgba(127,17,70,1);
+}
+
+.center {
+	text-align: center;
+}
+
+.sidebar {
+	width: 250px;
+	background-color: rgba(33,33,33,1);
+	color: #fff;
+}
+
+.sidebar .nav-title {
+	padding: 50px;
+	font-size: 200%;
+	/*color: #dc3a55;*/
+	font-weight: bold;
+}
+
+.sidebar .nav-item {
+	padding: 10px 50px;
+	font-size: 120%;
+}
+
+
+.content {
+	flex: 1;
+	height: 100%;
+	overflow: scroll;
+}
+
+.content > * {
+	padding: 0 50px;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.row {
+	display: flex;
+	justify-content: space-around;
+	margin: 50px auto;
+}
+
+.row > * {
+	flex: 1;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.row > *:first-child {
+	margin-left: 0;
+}
+
+.row > *:last-child {
+	margin-right: 0;
+}
+
+.madrow > * {
+	flex: 0;
+	margin: 0;
+	width: 50%;
+}
+
+.madrow div {
+	background: red;
+}
+
+.content > hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    max-width: none;
+}
+
+.footer {
+	text-align: center;
+	margin: 50px auto;
+}
+
+.placeholder {
+	background-color: #eee;
+	min-height: 300px;
+	margin: 0 25px;
+}
+
+.placeholder:first-child {
+	margin-left: 0;
+}
+
+.placeholder:last-child {
+	margin-right: 0;
+}
+
+.current {
+	color: #dc3a6e;
+	font-size: 140% !important;
+}
+
+.vert_divide {
+	background-color: #fff;
+	height: 300px;
+	width: 45px;
+}
+
+.video-wrapper {
+	position: relative;
+	height: 0;
+	padding-bottom: 28.125%;
+
+}
+
+.video-wrapper iframe {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.square_off {
+	width: 55%;
+	display: block;
+}
+
+.color_link {
+	color:  rgba(127,17,70,1);
+	text-decoration: underline;
+	line-height: 40px;
+}
+
+img {
+	max-width: 100%;
+	text-align: center;
+	vertical-align: middle;
+
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+
+p {
+	margin-top: 0;
+	text-align: justify;
+}
