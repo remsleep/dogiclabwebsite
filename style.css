@@ -37,9 +37,11 @@ body {
 	background-color: #d23a4e;
 }
 
+
 .subheader > * {
 	font-style: italic;
 	color: #eee;
+	font-size: 15px !important;
 }
 
 .announce_title {
@@ -68,7 +70,7 @@ body {
 
 .sidebar .nav-title {
 	padding: 50px;
-	font-size: 200%;
+	font-size: 180%;
 	color: #eee;
 	font-weight: bold;
 	text-decoration: none !important;
@@ -193,6 +195,11 @@ body {
 	margin-right: 20px;
 }
 
+.portrait {
+	width: 151px;
+	height: 204px;
+}
+
 img {
 	max-width: 100%;
 	text-align: center;
@@ -208,6 +215,7 @@ a {
 
 
 p {
+	font-size: 12px;
 	text-align: justify;
 	font-family: "Georgia", Times, serif;
 }
