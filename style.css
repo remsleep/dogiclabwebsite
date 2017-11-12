@@ -9,9 +9,11 @@ body {
 }
 
 .title {
-	font-size: 200%;
-	color: #d23a0e;
-	line-height: 100px;
+	font-size: 180%;
+	color: rgba(127,17,70,1);
+	line-height: 70px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-weight: bold;
 }
 
 .row.ycenter {
@@ -31,6 +33,15 @@ body {
 	margin-bottom: 30px;
 }
 
+.subheader {
+	background-color: #d23a4e;
+}
+
+.subheader > * {
+	font-style: italic;
+	color: #eee;
+}
+
 .announce_title {
 	font-size: 160%;
 	color: rgba(127,17,70,1);
@@ -40,22 +51,35 @@ body {
 	text-align: center;
 }
 
+.largify {
+	font-size: 240%;
+}
+
+.givespace {
+	margin-top: 40px !important;
+}
+
 .sidebar {
 	width: 250px;
 	background-color: rgba(33,33,33,1);
 	color: #fff;
+	text-decoration: none !important;
 }
 
 .sidebar .nav-title {
 	padding: 50px;
 	font-size: 200%;
-	/*color: #dc3a55;*/
+	color: #eee;
 	font-weight: bold;
+	text-decoration: none !important;
+
 }
 
 .sidebar .nav-item {
 	padding: 10px 50px;
 	font-size: 120%;
+	color: #eee;
+	text-decoration: none !important;
 }
 
 
@@ -68,7 +92,7 @@ body {
 .content > * {
 	padding: 0 50px;
 	max-width: 1000px;
-	margin: 0 auto;
+	margin: 10 auto;
 }
 
 .row {
@@ -120,7 +144,7 @@ body {
 }
 
 .current {
-	color: #dc3a6e;
+	color: #dc3a6e !important;
 	font-size: 140% !important;
 }
 
@@ -177,11 +201,13 @@ img {
 }
 
 a {
-	text-decoration: none;
-	color: inherit;
+	text-decoration: inherit;
+	font-size: 110%;
+	color: rgba(127,17,70,1);
 }
 
 
 p {
 	text-align: justify;
+	font-family: "Georgia", Times, serif;
 }
