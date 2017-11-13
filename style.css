@@ -200,6 +200,11 @@ body {
 	height: 204px;
 }
 
+.inbrowser_display {
+	width:415px;
+	height:350px;
+}
+
 img {
 	max-width: 100%;
 	text-align: center;
